@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3d8e1;
+    font: normal 15px Arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    text-align: center;
+    margin-top: 90px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: lighter;
+
+}
+
+section {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#jogo, #console {
+    margin-bottom: 15px;
+    color: #bb7087;
+    font-size: 16px;
+}
+
+select {
+    border-radius: 8px;
+    padding: 4px 6px;
+    background-color: #f8f8ff;
+    border: #bb7087;    
+    
+}
+
+#foto {
+    width: 200px;
+
+}
+
+#resultado {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#resultado img {
+    margin-top: 15px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f8f8ff;
+    padding: 23px;
+}
+
+p {
+    font-size: 14px;
+}
