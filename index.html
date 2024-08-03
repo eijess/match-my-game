@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="assets/logo-match.png" type="image/x-icon">
     <title>Match My Game</title>
 </head>
-<body>
+<body onclick="compatibilidade()">
     <header>
         <h1>Descubra a compatibilidade do seu game &#x2728</h1>
     </header>
@@ -18,16 +18,13 @@
                     <label for="jogo">Nome do jogo:</label>
                     <select name="jogo-nome" id="jogo-nome">
                         <option value="" disabled selected>Selecione um jogo</option>
-                        <option value="">League of Legends</option>
-                        <option value="">The Legend of Zelda: Breath of the Wild</option>
-                        <option value="">Red Dead Redemption 2</option>
-                        <option value="">The Witcher 3: Wild Hunt</option>
-                        <option value="">Animal Crossing: New Horizons</option>
-                        <option value="">Grand Theft Auto V</option>
-                        <option value="">Among Us</option>
-                        <option value="">Call of Duty: Warzone</option>
-                        <option value="">Hello Kitty: Island Adventure</option>
-                        <option value="">Fortnite</option>
+                        <option value="lol">League of Legends</option>
+                        <option value="zelda">The Legend of Zelda: Breath of the Wild</option>
+                        <option value="tw">The Witcher 3: Wild Hunt</option>
+                        <option value="acnh">Animal Crossing: New Horizons</option>
+                        <option value="gta">Grand Theft Auto V</option>
+                        <option value="amgus">Among Us</option>
+                        <option value="hellokitty">Hello Kitty: Island Adventure</option>
                     </select>
                 </div>
 
@@ -35,12 +32,12 @@
                     <label for="console">Console:</label>
                     <select name="console-nome" id="console-nome">
                         <option value="" disabled selected>Selecione um console</option>
-                        <option value="">Nintendo Switch</option>
-                        <option value="">PC (Windows)</option>
-                        <option value="">PC (macOS)</option>
-                        <option value="">PlayStation 5</option>
-                        <option value="">Xbox Series X/S</option>
-                        <option value="">Mobile (iOS, Android)</option>
+                        <option value="nintendo">Nintendo Switch</option>
+                        <option value="windows">PC (Windows)</option>
+                        <option value="mac">PC (macOS)</option>
+                        <option value="ps">PlayStation 5</option>
+                        <option value="xbox">Xbox Series X/S</option>
+                        <option value="mobile">Mobile (iOS, Android)</option>
                     </select>
                 </div>
                 <div id="resultado"></div>
@@ -48,7 +45,7 @@
         </main>
 
         <footer>
-            <p>Feito com &#x1F496por Jessica Ignácio | 2024 - Todos os direitos reservados &copy;</p>
+            <p>Feito com &#x1F496 por Jessica Ignácio | 2024 - Todos os direitos reservados &copy;</p>
         </footer>
     </div>
 
