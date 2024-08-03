@@ -5,6 +5,12 @@ function compatibilidade() {
     var img = document.createElement('img');
     img.setAttribute('id', 'foto');
 
+     // verifica se ambos os campos foram preenchidos
+     if (!jogo || !console) {
+        resultado.innerHTML = '';
+        return;
+     }
+
 let compatibilidade = false;
 
     switch (jogo) {
